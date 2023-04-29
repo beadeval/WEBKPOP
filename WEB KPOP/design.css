@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap');
+
+
+:root
+{
+    --gold1: #ffffff;
+}
+
+body 
+{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.kai{
+  display: flex;
+}
+
+.textokai{
+    text-align: left;
+    display:flex;
+}
+
+.imgkai{ 
+    float: right;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    height: 2px;
+    width: 2px;
+}
+
+.ateez{
+display:flex;
+}
+
+.textoateez {
+text-align: left;
+display: flex;
+float:right;
+}
+
+.imgateez{
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    height: 2px;
+    width: 2px;
+}
+   
+
+.container{
+    width: 90%;
+    max-width: 1250px;
+    margin:auto;
+    overflow: hidden;
+    padding:70px 0;
+    height: auto;
+  
+}
+
+.containerfooter
+{
+    text-align: center;
+  
+}
+
+.nombre_logo{
+    width: 100%; 
+    background-color: rgb(26, 25, 25); 
+    color: white;
+    letter-spacing: 10px;
+    word-spacing: 20px; 
+    text-align: left; 
+}
+
+.imgportada{
+    height: 100vh;
+    width: 100%;
+    
+}
+.nav_encabezado {
+    background-color: rgb(26, 25, 25);
+    position: fixed;
+    width:100% ;
+    padding: 8px;
+    text-align: right;
+}
+#menu li{
+    position:relative;
+    display: inline-block;
+   
+}
+.link{
+    color: white;
+    text-decoration:none;
+    font-weight: 300;
+    padding: 8px; 
+}  
+
+#menu li a:hover{
+color:rgb(175, 175, 175);
+transition: all .3s;
+}
+
+#submenu  {
+    position: absolute;
+    padding: 15px;
+    display:none; 
+    text-align: center; 
+  
+}
+
+.sublink{
+    color:rgb(235, 235, 235);
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+
+
+#menu a:hover + ul {
+    display:block;
+    background-color:rgb(175, 175, 175); 
+   }
+
+.pc {
+
+    display: inline-block;
+    width:100%;
+    padding :3px;
+    overflow: hidden;
+    position:static;
+    scroll-margin-block: 10px;
+    color: rgb(26, 25, 25);
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   
+    
+}
+
+.container_pcs{
+   
+    display:inline-flex;
+    text-align: center;
+   
+}
+
+.container_pcsactores
+{
+    display: inline-flex ;
+    
+}
+
+.pcimg{ 
+    width: 95%;
+    height: 300px;
+    object-fit: cover;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+
+.textopc
+{
+width: 95%;   
+margin-left: auto;
+padding-right: 25px;
+
+}
+
+
+.pcimgactor
+{
+    width: 95%;
+    height: 300px;
+    object-fit: cover;
+    text-align: left;
+    margin-bottom: 10px;
+
+}
+
+.pcactor{
+    display: inline-block;
+    width: 100%;
+    padding: 20px 0;
+    overflow: hidden;
+    position:static;
+    scroll-margin-block: 10px;
+    color: rgb(26, 25, 25);
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   
+    
+}
+
+/*.pchome{
+ 
+        float: left;
+        margin-right: 1em;
+        margin-bottom: 1em;
+    }
+   */
+
+
+    
+.textopcactor
+{
+    width: 95%;   
+    margin-left: auto;
+    padding-right: 25px;
+}
+
+.titulo
+{
+letter-spacing: 7px;
+word-spacing: 20px;
+text-align: center;
+margin-bottom: 10px;
+background-color:rgb(26, 25, 25);
+color: white;
+padding: 2px;
+}
+
+.cuerposection
+{
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+.tittle
+{
+ margin-bottom: 10px;
+}
+
+.cursiva{
+font-style: italic;
+}
+
+.textoquienesomos
+{
+text-align: center;
+
+}
+
+.imgexo
+{
+    width: 7%;
+    height: 7%;
+    align-items: center;
+    text-align: center;
+    display:inline-block;
+}
+
+.container_quienes
+{
+    display:flex;
+}
+
+.listaiconos
+{
+    font-family: 'Montserrat', sans-serif;
+ 
+}
+
+.cuerpoformulario{
+
+   background-image: url("img/exo3.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-image: center;
+    background-position: center;
+    
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"]
+{
+	width:180px;
+	padding:3px 10px;
+	border:1px solid #bbb5b5;
+	border-radius:3px;
+	background-color: rgba(231, 227, 227, 0.637);
+	margin:8px 0;
+	display:inline-block;
+}
+
+
+form input[type="submit"],
+[type="reset"]{
+	width:15%;
+    height: 30px;
+	margin-top:3px;
+    margin-bottom: 3px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:inline-block;
+	color:#ffffff;
+	background-color:#000;
+} 
+
+form input[type="submit"]:hover{
+    color: rgb(182, 174, 166);
+    transition: all .3s;
+}
+
+[type="reset"]:hover{
+    color: rgb(182, 174, 166);
+    transition: all .3s;
+}
+
+.containeraside{
+
+display:inlineblock;
+width: 100%;
+max-width: 1250px;
+padding: 80px 0;
+margin:auto;
+overflow: hidden;
+height: auto;
+text-align: center;
+}
+
+#entradas li a:hover {
+    color: rgb(194, 196, 194);
+    transition: all .3s;
+} 
+
+
+.conciertos{
+text-decoration: none;
+color:#000;
+}
+
+
+@media screen and (max-width:1000px){
+   .container_pcs{
+    display:block;
+   }
+}
+
+@media screen and (max-width:1000px){
+    .container_pcsactores{
+     display:block;
+    }
+ }
+
+ @media screen and (max-width:1000px){
+    .nombre_logo{
+      display: block;  
+    }
+ }
+
+ 
+    
+ 
